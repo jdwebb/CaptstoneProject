@@ -1,0 +1,37 @@
+<template name="waitingroom">
+  <div class="page-header">
+    <h1>Perfusion Simulator Waiting Room</h1>
+  </div>
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h3>Instructors</h3>
+    {{getCurrentInstructorUsersCount}}
+    <ul style="list-style-type: none;">
+      {{#each getCurrentInstructorUsers}}
+        {{> waitingRoomUser}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+    <h3>Students</h3>
+    {{getCurrentStudentUsersCount}}
+    <ul style="list-style-type: none;">
+      {{#each getCurrentStudentUsers}}
+        {{> waitingRoomUser}}
+      {{/each}}
+    </ul>
+  </div>
+
+  <div style="text-align: center;">
+    {{#if userIsSelected}}
+      <button id="requestSession" class="btn btn-lg btn-success" style="margin-top: 30px;">Request Session</button>
+    {{/if}}
+  </div>
+
+  <button id="gois" class="btn btn-lg btn-primary">Instructor Station</button>
+  <button id="goss" class="btn btn-lg btn-primary">Student Station</button>
+</template>
+
+<template name="waitingRoomUser">
+  <li class="waitingRoomUser {{selectedClass}}">{{firstName}} {{lastName}} <b>{{youHelper}}</b></li>
+</template>

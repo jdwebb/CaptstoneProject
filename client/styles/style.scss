@@ -1,0 +1,155 @@
+@import 'palette';
+
+// Variables
+$font-stack: "Avenir Next", "Avenir", sans-serif;
+
+body {
+  font-family: $font-stack;
+}
+
+a {
+  transition: all 0.25s ease-out;
+}
+
+button {
+  transition: all 0.25s ease-out;
+  border: none;
+}
+
+table > thead > th {
+  padding: 8px;
+  border: 1px solid #D5D5D5;
+}
+
+button.btn-huge {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  font-size: 30px;
+  background-color: $red-500;
+  color: white;
+}
+
+button.btn-huge:hover {
+  background-color: $red-900;
+  color: white;
+}
+
+.incrBtn {
+  text-align: center;
+}
+
+.incr-btn-style {
+  font-size: 1.2em;
+}
+
+.btn-row {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron h2 {
+  font-weight: 100;
+  font-size: 60px;
+}
+
+.pmd {
+  padding: 10px;
+  background-color: $pmd-bg;
+  color: white;
+  height: 725px;
+}
+
+.pmd-row {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  height: 85px;
+}
+
+.pmd-abp {
+  color: $pmd-red;
+}
+
+.pmd-map {
+  color: $pmd-orange;
+}
+
+.pmd-ecg1 {
+  color: $pmd-white;
+}
+
+.pmd-ecg2 {
+  color: $pmd-white;
+}
+
+.pmd-bis {
+  color: $pmd-white;
+}
+
+.pmd-capno {
+  color: $pmd-blue;
+}
+
+.pmd-cvp {
+  color: $pmd-green;
+}
+
+.pmd-svo2 {
+  color: $pmd-blue;
+}
+
+.pmd-alp {
+  color: $pmd-purple;
+}
+
+.pmd-temps {
+  color: $pmd-yellow;
+}
+
+.pmd-title-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.pmd-value-text {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.navbar-brand-img {
+  max-height: 35px;
+  margin-top: -9px;
+}
+
+div.page-header > h4 {
+  margin-bottom: -5px;
+  margin-top: -15px;
+}
+
+// --- SIGN IN PAGE ---
+.ichor-brand {
+  margin-top: 20px;
+  background-color: #F44336;
+  color: white;
+  font-size: 3.5em;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+}
+// --- SIGN IN PAGE ---
+
+// --- SIGN UP PAGE ---
+input.form-control {
+  margin-bottom: 15px;
+}
+
+#signup-btn {
+  margin-bottom: 30px;
+}
+// --- SIGN UP PAGE ---

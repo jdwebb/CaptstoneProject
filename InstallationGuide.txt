@@ -1,0 +1,43 @@
+This is an installation guide for SER-492 Project Ichor
+The Perfusion Simulation Software
+March 28, 2017
+
+Author: Matt Fishman, Jim Webb
+Advisor: Professor Christov
+Client: Professor Smith
+
+
+
+First you should go to this link and follow the installation guide:
+https://git-scm.com/downloads
+
+or type this script into your terminal:
+install git
+
+Once git has installed copy and paste this script into your computer's terminal
+git clone https://github.com/christov/Perfusion-Simulator.git
+
+Or you can follow the link above and download the zip (https://github.com/christov/Perfusion-Simulator.git)
+
+Now that everything is installed you can navigate to the Perfusion Folder using the terminal 
+Something like:   cd Desktop/Perfusion
+
+
+Then copy and paste the below script into your computer's terminal
+sudo apt-get install curl
+
+Once that has finished copy and paste the below script into your terminal
+bash meteor.sh
+
+
+Now that everything is all set all you need to do to run the application is navigate to the correct folder in terminal and type
+sudo meteor
+Into terminal and it should download the rest of the necessary files and begin running the system
+
+You can access the system using the local host or connecting to your IP address from a different computer on the same network
+
+local host address is: localhost:3000
+
+
+
+

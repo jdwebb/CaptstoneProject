@@ -1,0 +1,192 @@
+.noUi-connect{
+	background: #337ab7;
+}
+.chart{
+	height: 75px;
+	width: 90%;
+}
+
+path.highcharts-grid-line
+{
+	stroke-width: 0 !important;
+}
+
+.vitals{
+	background-color: #080000;
+	left: -25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.abpLabel, 
+.svo2Label,
+.mapLabel,
+.ecgLabel,
+.cvpLabel,
+.capLabel,
+.capVal{
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 10px;
+	position: relative;
+	top: 15px;
+}
+
+.cvpNumber{
+	font-weight: bold;
+	font-size: 18px;
+	margin-left: 20px;
+	color: green;
+	top: 15px;
+	margin-top: 15px;
+	position: relative;
+}
+
+.cvpUnit{
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 10px;
+	position: relative;
+	top: 15px;
+	color: green;
+}
+.capUnit{
+	color: yellow;
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 10px;
+	position: relative;
+	top: 25px;
+}
+
+.capLabel,
+.capVal{
+	top: 25px;
+}
+
+.abpVal,
+.svo2Val,
+.alpLabel,
+.alpVal,
+.tempLabel,
+.tempVal,
+.hrLabel{
+	font-weight: bold;
+	margin-top: 15px;
+	font-size: 18px;
+	float: left;
+}
+
+.mapVal{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+}
+
+.bisLabel{
+	font-weight: bold;
+	font-size: 18px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.abpLabel,
+.abpVal,
+.mapLabel,
+.mapVal{
+	color: red;
+}
+
+.svo2Label,
+.svo2Val{
+	color: cyan;
+}
+
+.ecgLabel,
+.hrLabel,
+.bisLabel{
+	color: white;
+}
+.cvpLabel{
+	color: green;
+}
+.capLabel,
+.tempLabel,
+.tempVal,
+.capVal{
+	color: yellow;
+}
+
+.alpLabel,
+.alpVal
+{
+	color: violet;
+}
+
+.hr-btn{
+	width: 100px;
+    margin: 10px 0 0 0;
+}
+
+.hr-btn.btn.btn-success.disabled{
+	cursor: default;
+}
+
+.timer{
+	text-align: center;
+}
+
+.timerBold{
+	color: red;
+}
+
+.studentActionsBold{
+	color: red;
+}
+
+.ecgGif{
+	width: 86%;
+	text-align: center;
+    margin-left: 70px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.capGif{
+	width: 80%;
+	width: 86%;
+	text-align: center;
+    margin-left: 70px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.jqDropZone {
+    background: lightgrey;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.jqDropZone.in {
+    width: 600px;
+    height: 200px;
+    line-height: 200px;
+    font-size: larger;
+}
+.jqDropZone.hover {
+    background: lawngreen;
+}
+.jqDropZone.fade {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+}
+
+#pumpValue{
+	font-size: 24px;
+}
